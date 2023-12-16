@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "cobbletemplate",
+	"version": "${version}",
+	"name": "Cobbletemplate",
+	"description": "Example",
+	"authors": [
+		"You"
+	],
+	"contact": {
+		"sources": "",
+		"issues": ""
+	},
+	"license": "MIT",
+	"icon": "assets/modid/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			{
+				"value": "com.author.cobbletemplate.fabric.CobbleTemplate"
+			}
+		],
+		"client": [
+			{
+				"value": "com.author.cobbletemplate.fabric.CobbleTemplateClient"
+			}
+		]
+	},
+	"mixins": [
+		"cobbletemplate.mixins.json",
+		"cobbletemplate-fabric.mixins.json"
+	],
+	"depends": {
+		"fabric-api": "*",
+		"minecraft": "${minecraft_version}",
+		"architectury": "${architectury_version}.x",
+		"cobblemon": ">=${cobblemon_version}"
+	}
+}

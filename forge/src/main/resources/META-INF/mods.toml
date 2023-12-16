@@ -1,0 +1,41 @@
+modLoader = "kotlinforforge"
+loaderVersion = "[4,)"
+issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "cobbletemplate"
+version = "${version}"
+displayName = "Cobbletemplate"
+authors = [
+    "YOU"
+]
+description = '''
+Example
+'''
+logoFile = "assets/modid/icon.png"
+
+[[dependencies.cobbletemplate]]
+modId = "forge"
+mandatory = true
+versionRange = "[${loader_version},)"
+
+[[dependencies.cobbletemplate]]
+modId = "kotlinforforge"
+mandatory = true
+versionRange = "[${forge_kotlin_version},)"
+
+[[dependencies.cobbletemplate]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[${minecraft_version}]"
+
+[[dependencies.cobbletemplate]]
+modId = "architectury"
+mandatory = true
+versionRange = "[${architectury_version},)"
+
+[[dependencies.cobbletemplate]]
+modId = "cobblemon"
+mandatory = true
+versionRange = "[${cobblemon_version},)"
