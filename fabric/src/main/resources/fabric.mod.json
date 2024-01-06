@@ -17,12 +17,12 @@
 	"entrypoints": {
 		"main": [
 			{
-				"value": "com.khalidnecron.pokemachines.fabric.PokeMachines"
+				"value": "com.khalidnecron.pokemachines.fabric.PokeMachinesFabric"
 			}
 		],
 		"client": [
 			{
-				"value": "com.khalidnecron.pokemachines.fabric.PokeMachinesClient"
+				"value": "com.khalidnecron.pokemachines.fabric.PokeMachinesFabricClient"
 			}
 		]
 	},
