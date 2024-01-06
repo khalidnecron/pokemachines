@@ -42,3 +42,6 @@ replay_*.log
 # junit
 
 logs/
+
+# run client and server
+trash/
