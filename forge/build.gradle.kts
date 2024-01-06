@@ -1,5 +1,5 @@
 plugins {
-    id("cobbletemplate.platform-conventions")
+    id("pokemachines.platform-conventions")
 }
 
 architectury {
@@ -9,8 +9,8 @@ architectury {
 
 loom {
     forge {
-        mixinConfig("cobbletemplate.mixins.json")
-        mixinConfig("cobbletemplate-forge.mixins.json")
+        mixinConfig("pokemachines.mixins.json")
+        mixinConfig("pokemachines-forge.mixins.json")
     }
 }
 

@@ -4,16 +4,16 @@ issueTrackerURL = ""
 license = "MIT"
 
 [[mods]]
-modId = "cobbletemplate"
+modId = "pokemachines"
 version = "${version}"
-displayName = "Cobbletemplate"
+displayName = "Pokemachines"
 authors = [
-    "YOU"
+    "KhalidNecron"
 ]
 description = '''
-Example
+TM's and HM's from pokemon
 '''
-logoFile = "assets/modid/icon.png"
+logoFile = "assets/pokemachines/icon.png"
 
 [[dependencies.cobbletemplate]]
 modId = "forge"

@@ -5,7 +5,7 @@ configurations.all {
 }
 
 plugins {
-	id("cobbletemplate.platform-conventions")
+	id("pokemachines.platform-conventions")
 }
 
 architectury {

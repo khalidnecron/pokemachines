@@ -1,5 +1,5 @@
 plugins {
-	id("cobbletemplate.base-conventions")
+	id("pokemachines.base-conventions")
 	alias(libs.plugins.kotlin.serialization)
 }
 

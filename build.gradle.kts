@@ -1,6 +1,6 @@
 plugins {
 	base
-	id("cobbletemplate.root-conventions")
+	id("pokemachines.root-conventions")
 }
 
 val mavenGroup: String by rootProject

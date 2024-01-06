@@ -1,5 +1,5 @@
 plugins {
-    id("cobbletemplate.base-conventions")
+    id("pokemachines.base-conventions")
     id("com.github.johnrengelman.shadow")
 //    alias(libs.plugins.shadow)
 }
@@ -15,14 +15,14 @@ dependencies {
 
 tasks {
     jar {
-        archiveBaseName.set("Cobbletemplate-${project.name}")
+        archiveBaseName.set("Pokemachines-${project.name}")
         archiveClassifier.set("dev")
     }
 
     shadowJar {
         exclude("architectury.common.json")
 
-        archiveBaseName.set("Cobbletemplate-${project.name}")
+        archiveBaseName.set("Pokemachines-${project.name}")
         archiveClassifier.set("dev-shadow")
         configurations = listOf(bundle)
         mergeServiceFiles()
@@ -32,7 +32,7 @@ tasks {
         dependsOn(shadowJar)
         inputFile.set(shadowJar.flatMap { it.archiveFile })
 
-        archiveBaseName.set("Cobbletemplate-${project.name}")
+        archiveBaseName.set("Pokemachines-${project.name}")
         archiveVersion.set("${rootProject.version}")
     }
 }

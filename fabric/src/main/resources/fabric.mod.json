@@ -1,34 +1,34 @@
 {
 	"schemaVersion": 1,
-	"id": "cobbletemplate",
+	"id": "pokemachines",
 	"version": "${version}",
-	"name": "Cobbletemplate",
-	"description": "Example",
+	"name": "Pokemachines",
+	"description": "TM's and HM's from pokemon",
 	"authors": [
-		"You"
+		"KhalidNecron"
 	],
 	"contact": {
 		"sources": "",
 		"issues": ""
 	},
 	"license": "MIT",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/pokemachines/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			{
-				"value": "com.author.cobbletemplate.fabric.CobbleTemplate"
+				"value": "com.khalidnecron.pokemachines.fabric.PokeMachines"
 			}
 		],
 		"client": [
 			{
-				"value": "com.author.cobbletemplate.fabric.CobbleTemplateClient"
+				"value": "com.khalidnecron.pokemachines.fabric.PokeMachinesClient"
 			}
 		]
 	},
 	"mixins": [
-		"cobbletemplate.mixins.json",
-		"cobbletemplate-fabric.mixins.json"
+		"pokemachines.mixins.json",
+		"pokemachines-fabric.mixins.json"
 	],
 	"depends": {
 		"fabric-api": "*",
